@@ -11,7 +11,8 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 @EnableEurekaClient
 //@RibbonClient(name="CLOUD-PAYMENT-SERVICE",configuration = Myrule.class)
 public class OrderComsumer80 {
-    
+
+
     public static void main(String[] args){
         SpringApplication.run(OrderComsumer80.class,args);
     }
